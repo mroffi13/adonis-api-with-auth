@@ -35,3 +35,6 @@ Route.get('/users/:id', 'UsersController.show')
 
 // Asset
 Route.post('/assets/upload', 'Assets/AssetsController.store')
+
+// Whatsapp QR
+Route.get('/qr-code', 'WhatsappsController.index')

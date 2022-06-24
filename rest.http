@@ -2,7 +2,7 @@
 @port = 3333
 @host = {{hostname}}:{{port}}
 @contentType = application/json
-@token = Ng.tfASGSsIi7bLVqGJ1hkflW9eKIQVQ_shDkvp7rIjCo11hyqlJvHHYt9LVFmI
+@token = Nw._U06pnEpYB0Q5yZakhu8d4Jg8KLD400PvfluT3JJsjFVetuBXcbUif9MZEJi
 ### login
 
 POST {{host}}/login HTTP/1.1
@@ -69,3 +69,7 @@ Content-Type: image/png
 
 < ./logo.png
 ------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+### WA
+GET {{host}}/qr-code HTTP/1.1
+Authorization: Bearer {{token}}
