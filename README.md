@@ -22,7 +22,7 @@ npm install
 ```
 npm ace migration:run
 ```
-5. Jalankan perintah 
+6. Jalankan perintah 
 ```
 node ace serve --watch
 ```
