@@ -8,6 +8,7 @@ export default class WhatsappsController {
             await auth.use('api').authenticate()
             if(!auth.use('api').isAuthenticated)
                 return response.badRequest({ code: 400, message: 'Mohon login terlebih dahulu.' })
+
             create('sessionName', (base64Qr, asciiQR) => {
                 // To log the QR in the terminal
                 console.log(asciiQR);

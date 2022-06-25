@@ -2,7 +2,7 @@
 @port = 3333
 @host = {{hostname}}:{{port}}
 @contentType = application/json
-@token = Nw._U06pnEpYB0Q5yZakhu8d4Jg8KLD400PvfluT3JJsjFVetuBXcbUif9MZEJi
+@token = MQ.lBB-sSYSBaDRopM8t3Rl3mSpVjgLOMt9hnehILKdn5ug23Gk95Q21h1_jmWa
 ### login
 
 POST {{host}}/login HTTP/1.1
